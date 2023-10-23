@@ -1,0 +1,114 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: cyan;
+  margin: 1cm;
+}
+
+header {
+  background-color: yellowgreen;
+  color: azure;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#tema {
+  font-size: 20px;
+  text-align: center;
+}
+
+#problema {
+  font-size: 20px;
+  text-align: center;
+}
+
+#texto2 {
+  font-size: 15.4px;
+  text-align: justify;
+}
+
+#subtitle2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text3 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+#subtitle3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#text4 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+#subtitle4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text5 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.table {
+  margin: 0 auto;
+  background-size: 2rem;
+  background-color: darkorange;
+  border-radius: 0.5rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 0.1rem;
+}
+
+.conteiner {
+  width: 300px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.subtitle1 {
+  color: #000;
+}
+
+#Introduccion {
+  text-align: center;
+}
+
+footer {
+  background-color: seagreen;
+  padding: 2rem;
+  color: aqua;
+}
+
+footer section {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: blue;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: chartreuse;
+}
