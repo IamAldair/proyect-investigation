@@ -5,13 +5,12 @@ html {
 }
 
 body {
-  background-color: cyan;
-  margin: 1cm;
+  background-color: aquamarine;
+  margin: 25px;
 }
 
-header {
-  background-color: yellowgreen;
-  color: azure;
+#titulo  {
+  background-color: lightskyblue;
   padding: 3rem 1.5rem;
   text-align: center;
 }
@@ -29,6 +28,7 @@ header {
 #texto2 {
   font-size: 15.4px;
   text-align: justify;
+  margin: 20px;
 }
 
 #subtitle2 {
@@ -39,6 +39,10 @@ header {
 .text3 {
   font-size: 15px;
   text-align: justify;
+  background-color: turquoise;
+  margin: 0.5cm;
+  padding: 1rem;
+  border: 1px solid black;
 }
 
 #subtitle3 {
@@ -48,7 +52,7 @@ header {
 
 #text4 {
   font-size: 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 #subtitle4 {
@@ -64,8 +68,12 @@ header {
 .table {
   margin: 0 auto;
   background-size: 2rem;
-  background-color: darkorange;
+  background-color: darkturquoise;
   border-radius: 0.5rem;
+}
+
+#texto-table {
+  text-align: center;
 }
 
 table,
@@ -96,11 +104,15 @@ footer {
 }
 
 footer section {
-  float: right;
+  float:inline-end;
 }
 
 footer p {
   margin: 0;
+}
+
+#comienzo {
+  text-align: center;
 }
 
 footer a {
